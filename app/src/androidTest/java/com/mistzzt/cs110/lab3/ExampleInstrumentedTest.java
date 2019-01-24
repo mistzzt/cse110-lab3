@@ -28,4 +28,9 @@ public class ExampleInstrumentedTest {
     public void testDoNothing() {
       assertEquals("Hello", "Hello");
     }
+
+    @Test
+    public void test2() {
+      assertEquals("EE", "EE");
+    }
 }
