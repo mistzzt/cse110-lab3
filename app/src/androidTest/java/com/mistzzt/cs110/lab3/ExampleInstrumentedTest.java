@@ -23,4 +23,14 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.mistzzt.cs110.lab3", appContext.getPackageName());
     }
+
+    @Test
+    public void testDoNothing() {
+      assertEquals("Hello", "Hello");
+    }
+
+    @Test
+    public void test2() {
+      assertEquals("EE", "EE");
+    }
 }
